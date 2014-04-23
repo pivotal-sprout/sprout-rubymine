@@ -7,4 +7,8 @@ default['sprout']['rubymine']['preferences']['dir'] = "#{node['sprout']['home']}
 default['sprout']['rubymine']['preferences']['files'] = %w(
   keymaps/pivotal.xml
   templates/jasmine.xml
+  options/editor.xml
+  options/ide.general.xml
+  options/keymap.xml
+  options/colors.scheme.xml
 )
