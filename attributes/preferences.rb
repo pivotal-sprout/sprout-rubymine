@@ -6,10 +6,3 @@ default['sprout']['rubymine']['preferences']['revision'] = 'master'
 
 default['sprout']['rubymine']['preferences']['install_dir'] =
   "#{node['sprout']['home']}/Library/Preferences/RubyMine60"
-
-default['sprout']['rubymine']['preferences']['dirs_to_link'] = %w(
-  codestyles
-  keymaps
-  options
-  templates
-)
